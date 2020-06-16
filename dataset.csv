@@ -1,0 +1,668 @@
+CHANNEL;AUTHOR;CONTENT;DATE;TIME;CPT
+discussion-clients;Kartodix#2540;!start;15/06/2020;20:54:07;1
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;20:54:17;1
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;20:54:28;1
+discussion-clients;THIRD-BOT#7473;coucou;15/06/2020;20:54:38;1
+discussion-clients;FIRST-CLIENT#0136;help;15/06/2020;20:54:49;2
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;20:54:59;2
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;20:55:10;2
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;20:55:20;3
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;20:55:31;3
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;20:55:41;3
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;20:55:52;4
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;20:56:02;4
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;20:56:12;4
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;20:56:23;5
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;20:56:33;5
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;20:56:44;5
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;20:56:54;6
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;20:57:05;6
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;20:57:15;6
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;20:57:26;7
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;20:57:36;7
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;20:57:46;7
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;20:57:57;8
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;20:58:07;8
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;20:58:18;8
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;20:58:28;9
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;20:58:39;9
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;20:58:49;9
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;20:59:00;10
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;20:59:10;10
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;20:59:21;10
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;20:59:31;11
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;20:59:41;11
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;20:59:52;11
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;21:00:02;12
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;21:00:13;12
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:00:23;12
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:00:34;13
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:00:45;13
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;21:00:55;13
+discussion-clients;FIRST-CLIENT#0136;help;15/06/2020;21:01:06;14
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:01:16;14
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;21:01:26;14
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:01:37;15
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:01:47;15
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:01:58;15
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;21:02:08;16
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:02:19;16
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:02:29;16
+discussion-clients;FIRST-CLIENT#0136;help;15/06/2020;21:02:40;17
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:02:50;17
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:03:01;17
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:03:11;18
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:03:22;18
+discussion-clients;THIRD-BOT#7473;coucou;15/06/2020;21:03:32;18
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:03:43;19
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;21:03:53;19
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;21:04:04;19
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;21:04:14;20
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:04:24;20
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;21:04:35;20
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:04:45;21
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:04:56;21
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:05:06;21
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:05:17;22
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;21:05:27;22
+discussion-clients;THIRD-BOT#7473;coucou;15/06/2020;21:05:39;22
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:05:50;23
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:06:01;23
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:06:11;23
+discussion-clients;FIRST-CLIENT#0136;help;15/06/2020;21:06:22;24
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:06:32;24
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:06:43;24
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;21:06:53;25
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:07:03;25
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;21:07:14;25
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:07:24;26
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;21:07:35;26
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;21:07:45;26
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:07:56;27
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;21:08:06;27
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:08:17;27
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;21:08:27;28
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:08:39;28
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:08:49;28
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:09:00;29
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;21:09:11;29
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:09:22;29
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:09:32;30
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:09:43;30
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:09:54;30
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:10:04;31
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:10:17;31
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:10:28;31
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:10:38;32
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:10:49;32
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:11:00;32
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:11:11;33
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:11:22;33
+discussion-clients;THIRD-BOT#7473;coucou;15/06/2020;21:11:33;33
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:11:44;34
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:11:55;34
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:12:05;34
+discussion-clients;FIRST-CLIENT#0136;help;15/06/2020;21:12:16;35
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:12:27;35
+discussion-clients;THIRD-BOT#7473;coucou;15/06/2020;21:12:39;35
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:12:52;36
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;21:13:05;36
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:13:19;36
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:13:31;37
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:13:42;37
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;21:13:47;37
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:14:04;38
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:14:15;38
+discussion-clients;THIRD-BOT#7473;coucou;15/06/2020;21:14:26;38
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:14:38;39
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:14:49;39
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:15:00;39
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:15:11;40
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:15:22;40
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;21:15:33;40
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:16:03;41
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:16:14;41
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:16:25;41
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:16:36;42
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;21:16:47;42
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:16:58;42
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;21:17:09;43
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;21:17:20;43
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:17:30;43
+discussion-clients;Kartodix#2540;!start;15/06/2020;21:20:29;2
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:20:39;44
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:20:50;44
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:21:00;44
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;21:21:11;45
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:21:21;45
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:21:32;45
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;21:21:42;46
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:21:53;46
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:22:03;46
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:22:14;47
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;21:22:24;47
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:22:35;47
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:22:45;48
+discussion-clients;SECOND-CLIENT#4072;Bonjoir;15/06/2020;21:22:55;48
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;21:23:06;48
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:23:16;49
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:23:28;49
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:23:38;49
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:23:49;50
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:23:59;50
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:24:10;50
+discussion-clients;FIRST-CLIENT#0136;help;15/06/2020;21:24:20;51
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:24:31;51
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:24:41;51
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:24:51;52
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:25:02;52
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:25:12;52
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;21:25:24;53
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:25:35;53
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:25:45;53
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:25:56;54
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:26:06;54
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;21:26:17;54
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;21:26:28;55
+discussion-clients;SECOND-CLIENT#4072;Bonjoir;15/06/2020;21:26:38;55
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:26:49;55
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:27:00;56
+discussion-clients;SECOND-CLIENT#4072;Bonjoir;15/06/2020;21:27:10;56
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:27:21;56
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:27:31;57
+discussion-clients;SECOND-CLIENT#4072;Bonjoir;15/06/2020;21:27:41;57
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:27:52;57
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;21:28:03;58
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:28:13;58
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:28:23;58
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:28:34;59
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:28:44;59
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:28:55;59
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:29:05;60
+discussion-clients;SECOND-CLIENT#4072;Bonjoir;15/06/2020;21:29:16;60
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;21:29:26;60
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:29:37;61
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;21:29:47;61
+discussion-clients;THIRD-BOT#7473;coucou;15/06/2020;21:29:58;61
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;21:30:08;62
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;21:30:19;62
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;21:30:29;62
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:30:40;63
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:30:50;63
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:31:01;63
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:31:11;64
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:31:22;64
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:31:32;64
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:31:43;65
+discussion-clients;SECOND-CLIENT#4072;Bonjoir;15/06/2020;21:31:53;65
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:32:04;65
+discussion-clients;FIRST-CLIENT#0136;help;15/06/2020;21:32:14;66
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;21:32:25;66
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:32:35;66
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;21:32:46;67
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:32:57;67
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;21:33:07;67
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;21:33:18;68
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:33:28;68
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:33:39;68
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:33:49;69
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:34:00;69
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;21:34:11;69
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:34:22;70
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:34:32;70
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:34:43;70
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:34:54;71
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;21:35:05;71
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:35:16;71
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:35:27;72
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:35:38;72
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:35:49;72
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:36:00;73
+discussion-clients;SECOND-CLIENT#4072;Bonjoir;15/06/2020;21:36:12;73
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;21:36:23;73
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:36:35;74
+discussion-clients;SECOND-CLIENT#4072;Bonjoir;15/06/2020;21:36:47;74
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:36:53;74
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:37:04;75
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:37:13;75
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:37:34;75
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:37:45;76
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:37:56;76
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:38:07;76
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;21:38:13;77
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:38:28;77
+discussion-clients;THIRD-BOT#7473;coucou;15/06/2020;21:38:39;77
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;21:38:50;78
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:39:01;78
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:39:11;78
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;21:39:22;79
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:39:33;79
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:39:44;79
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:39:54;80
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;21:40:05;80
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;21:40:15;80
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:40:27;81
+discussion-clients;SECOND-CLIENT#4072;Bonjoir;15/06/2020;21:40:39;81
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:40:56;81
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;21:41:06;82
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:41:20;82
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:41:30;82
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:42:02;83
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;21:42:14;83
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:42:25;83
+general;Tehistir#9627;https://www.tf1.fr/tmc/quotidien-avec-yann-barthes/videos/morning-glory-qui-mieux-que-le-rassemblement-national-pour-parler-racisme-26671594.html;15/06/2020;21:42:29;1
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:42:45;84
+general;Kartodix#2540;super merci;15/06/2020;21:42:46;3
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:43:06;84
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;21:43:17;84
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:43:28;85
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:43:42;85
+discussion-clients;THIRD-BOT#7473;coucou;15/06/2020;21:43:52;85
+discussion-clients;FIRST-CLIENT#0136;help;15/06/2020;21:44:02;86
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;21:44:13;86
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;21:44:23;86
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:44:34;87
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;21:44:45;87
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:44:56;87
+discussion-clients;FIRST-CLIENT#0136;c'est tout pour moi;15/06/2020;21:45:06;88
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;21:45:17;88
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:45:28;88
+discussion-clients;FIRST-CLIENT#0136;Mon code fonctionne, merci;15/06/2020;21:45:38;89
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:45:49;89
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;21:46:00;89
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:46:12;90
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:46:23;90
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:46:33;90
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:46:44;91
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:46:54;91
+discussion-clients;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;21:47:05;91
+discussion-clients;FIRST-CLIENT#0136;merci;15/06/2020;21:47:15;92
+discussion-clients;SECOND-CLIENT#4072;C'est trop dur;15/06/2020;21:47:26;92
+discussion-clients;THIRD-BOT#7473;coucou;15/06/2020;21:47:36;92
+discussion-clients;FIRST-CLIENT#0136;allez, salut;15/06/2020;21:47:47;93
+discussion-clients;SECOND-CLIENT#4072;Je n'y arrive pas;15/06/2020;21:47:57;93
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;21:48:08;93
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:48:18;94
+discussion-clients;SECOND-CLIENT#4072;Bonjoir;15/06/2020;21:48:29;94
+discussion-clients;THIRD-BOT#7473;ca va ?;15/06/2020;21:48:40;94
+discussion-clients;FIRST-CLIENT#0136;help;15/06/2020;21:48:50;95
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:49:00;95
+discussion-clients;THIRD-BOT#7473;au revoir;15/06/2020;21:49:11;95
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:49:21;96
+discussion-clients;SECOND-CLIENT#4072;Voila mon projet;15/06/2020;21:49:32;96
+discussion-clients;THIRD-BOT#7473;je deco;15/06/2020;21:49:42;96
+discussion-clients;FIRST-CLIENT#0136;help;15/06/2020;21:49:53;97
+discussion-clients;SECOND-CLIENT#4072;J'arrete la programmation;15/06/2020;21:50:03;97
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:50:14;97
+discussion-clients;FIRST-CLIENT#0136;a l'aide;15/06/2020;21:50:24;98
+discussion-clients;SECOND-CLIENT#4072;Regardez mon site;15/06/2020;21:50:35;98
+discussion-clients;THIRD-BOT#7473;salut;15/06/2020;21:50:45;98
+discussion-clients;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;21:50:55;99
+discussion-clients;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;21:51:06;99
+discussion-clients;THIRD-BOT#7473;++;15/06/2020;21:51:16;99
+general;Tehistir#9627;dsfsdf;15/06/2020;21:52:03;2
+general;Tehistir#9627;sasdsd;15/06/2020;21:53:48;3
+discussion-clients;Kartodix#2540;!start;15/06/2020;21:53:51;4
+discu2;Kartodix#2540;!start;15/06/2020;22:00:01;5
+discu2;Kartodix#2540;!start;15/06/2020;22:03:03;100
+discu2;FIRST-CLIENT#0136;allez, salut;15/06/2020;22:03:14;100
+discu2;SECOND-CLIENT#4072;Bonjoir;15/06/2020;22:03:24;100
+general;Tehistir#9627;sdffs;15/06/2020;22:03:28;100
+general;Tehistir#9627;dfgr;15/06/2020;22:03:34;101
+general;Tehistir#9627;vbfdz;15/06/2020;22:03:38;102
+discu2;THIRD-BOT#7473;ca va ?;15/06/2020;22:04:05;100
+discu2;FIRST-CLIENT#0136;allez, salut;15/06/2020;22:04:16;101
+discu2;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;22:04:26;101
+discu2;THIRD-BOT#7473;au revoir;15/06/2020;22:04:37;101
+discu2;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;22:04:47;102
+discu2;SECOND-CLIENT#4072;Je veux commencer le Python;15/06/2020;22:04:58;102
+discu2;THIRD-BOT#7473;++;15/06/2020;22:05:08;102
+discu2;FIRST-CLIENT#0136;j'ai un soucis avec mon bot;15/06/2020;22:05:19;103
+discu2;SECOND-CLIENT#4072;Bonjoir;15/06/2020;22:05:29;103
+discu2;THIRD-BOT#7473;++;15/06/2020;22:05:39;103
+discu2;FIRST-CLIENT#0136;merci;15/06/2020;22:05:50;104
+discu2;SECOND-CLIENT#4072;Bonjoir;15/06/2020;22:06:00;104
+discu2;THIRD-BOT#7473;vous pouvez m'aider ?;15/06/2020;22:06:11;104
+spambot-kartodix;Kartodix#2540;hello;2020/6/16;11:18:27
+spambot-kartodix;Kartodix#2540;salut;2020/6/16;11:19:4
+spambot-kartodix;Kartodix#2540;!stop;2020/6/16;13:49:22
+spambot-kartodix;Kartodix#2540;!play;2020/6/16;13:49:38
+spambot-kartodix;Kartodix#2540;hello;2020/6/16;13:50:29
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;13:50:33
+general;Tehistir#9627;!play https://www.youtube.com/watch?v=_2Vz8gIuw1E;2020/6/16;13:50:40
+spambot-kartodix;Kartodix#2540;hi;2020/6/16;13:51:20
+general;Tehistir#9627;!play https://www.youtube.com/watch?v=zquFZaHw2TQ;2020/6/16;13:51:20
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;13:51:23
+spambot-kartodix;Kartodix#2540;hello;2020/6/16;13:52:38
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;13:52:40
+spambot-kartodix;Kartodix#2540;?start;2020/6/16;13:54:32
+spambot-kartodix;FIRST-CLIENT#0136;merci;2020/6/16;13:54:37
+spambot-kartodix;SECOND-CLIENT#4072;J'arrete la programmation;2020/6/16;13:54:43
+spambot-kartodix;THIRD-BOT#7473;je deco;2020/6/16;13:54:48
+spambot-kartodix;FIRST-CLIENT#0136;a l'aide;2020/6/16;13:54:54
+spambot-kartodix;SECOND-CLIENT#4072;C'est trop dur;2020/6/16;13:54:59
+spambot-kartodix;THIRD-BOT#7473;ca va ?;2020/6/16;13:55:5
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;13:55:7
+spambot-kartodix;Kartodix#2540;?start;2020/6/16;14:6:18
+spambot-kartodix;FIRST-CLIENT#0136;c'est tout pour moi;2020/6/16;14:6:23
+spambot-kartodix;SECOND-CLIENT#4072;J'arrete la programmation;2020/6/16;14:6:29
+spambot-kartodix;THIRD-BOT#7473;vous pouvez m'aider ?;2020/6/16;14:6:34
+spambot-kartodix;FIRST-CLIENT#0136;c'est tout pour moi;2020/6/16;14:6:40
+spambot-kartodix;SECOND-CLIENT#4072;Voila mon projet;2020/6/16;14:6:45
+spambot-kartodix;THIRD-BOT#7473;je deco;2020/6/16;14:6:51
+spambot-kartodix;FIRST-CLIENT#0136;help;2020/6/16;14:6:56
+spambot-kartodix;SECOND-CLIENT#4072;Regardez mon site;2020/6/16;14:7:2
+spambot-kartodix;Kartodix#2540;?start;2020/6/16;14:8:31
+spambot-kartodix;FIRST-CLIENT#0136;allez, salut;2020/6/16;14:8:37
+spambot-kartodix;SECOND-CLIENT#4072;Voila mon projet;2020/6/16;14:8:43
+spambot-kartodix;THIRD-BOT#7473;++;2020/6/16;14:8:49
+spambot-kartodix;FIRST-CLIENT#0136;a l'aide;2020/6/16;14:8:54
+spambot-kartodix;SECOND-CLIENT#4072;C'est trop dur;2020/6/16;14:9:0
+general;Kartodix#2540;hi;2020/6/16;14:54:21
+general;Kartodix#2540;test;2020/6/16;14:55:2
+general;Kartodix#2540;?help;2020/6/16;14:55:9
+general;Kartodix#2540;?close;2020/6/16;14:55:15
+spambot-kartodix;Kartodix#2540;salut;2020/6/16;14:55:54
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;14:56:0
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;14:56:6
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;14:56:26
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;14:56:31
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;14:57:15
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;14:57:53
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;14:58:1
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:1:50
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;15:2:24
+spambot-kartodix;Kartodix#2540;?help Kartodix;2020/6/16;15:2:48
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:2:53
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:3:35
+spambot-kartodix;Kartodix#2540;?help Kartodix;2020/6/16;15:3:46
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:5:50
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:6:58
+spambot-kartodix;Kartodix#2540;!dm;2020/6/16;15:7:45
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:21:18
+spambot-kartodix;Kartodix#2540;hello;2020/6/16;15:21:34
+spambot-kartodix;Kartodix#2540;re;2020/6/16;15:21:39
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;15:21:41
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:21:52
+spambot-kartodix;Kartodix#2540;?dm;2020/6/16;15:24:14
+spambot-kartodix;Kartodix#2540;!dm;2020/6/16;15:24:20
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:24:23
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;15:26:12
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:26:33
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;15:29:10
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:29:29
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;15:29:39
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:29:59
+spambot-kartodix;Kartodix#2540;test Kartodix;2020/6/16;15:35:28
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:35:43
+spambot-kartodix;Kartodix#2540;test Kartodix;2020/6/16;15:36:3
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;15:39:1
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:39:6
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;15:42:58
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:43:14
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;15:43:25
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:43:37
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;15:43:53
+discu2;Tehistir#9627;?help;2020/6/16;15:46:33
+discu2;Kartodix#2540;?close;2020/6/16;15:49:19
+spambot-kartodix;Kartodix#2540;help kartodix*;2020/6/16;15:53:18
+spambot-kartodix;Kartodix#2540;help kartodix;2020/6/16;15:53:23
+spambot-kartodix;Kartodix#2540;help Kartodix;2020/6/16;15:53:29
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:55:5
+spambot-kartodix;Kartodix#2540;?help Kartodix;2020/6/16;15:57:36
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;15:58:31
+spambot-kartodix;Kartodix#2540;?help Kartodix;2020/6/16;16:0:21
+spambot-kartodix;Kartodix#2540;help Kartodix;2020/6/16;16:0:25
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;16:1:26
+spambot-kartodix;Kartodix#2540;?help Kartodix;2020/6/16;16:1:37
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;16:1:41
+spambot-kartodix;Kartodix#2540;?help cc;2020/6/16;16:2:9
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;16:2:14
+spambot-kartodix;Tehistir#9627;?help CHANNEL;2020/6/16;16:2:54
+spambot-kartodix;Kartodix#2540;?help CHANNELS;2020/6/16;16:3:1
+spambot-kartodix;Kartodix#2540;?help author;2020/6/16;16:3:10
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;16:3:50
+spambot-kartodix;Kartodix#2540;?help test;2020/6/16;16:4:4
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;16:4:15
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;16:4:29
+discu2;Kartodix#2540;test;2020/6/16;16:6:11
+discu2;Kartodix#2540;?close;2020/6/16;16:6:27
+discu2;Kartodix#2540;?help sss;2020/6/16;16:7:53
+discu2;Kartodix#2540;?help AUTHOR;2020/6/16;16:8:5
+discu2;Kartodix#2540;?close;2020/6/16;16:8:35
+discu2;Kartodix#2540;?help AUTHOR;2020/6/16;16:11:3
+discu2;Kartodix#2540;?close;2020/6/16;16:11:19
+discu2;Kartodix#2540;?help AUTHOR;2020/6/16;16:11:31
+discu2;Tehistir#9627;?help AUTHOR;2020/6/16;16:11:46
+discu2;Kartodix#2540;?close;2020/6/16;16:12:57
+discu2;Kartodix#2540;?help TIME;2020/6/16;16:13:12
+discu2;Kartodix#2540;?help AUTHOR;2020/6/16;16:13:33
+discu2;Tehistir#9627;?help TIME;2020/6/16;16:13:37
+general;Kartodix#2540;https://cdn.discordapp.com/attachments/722441902351188039/722453766250561636/current_graph.png;2020/6/16;16:14:15
+general;Kartodix#2540;?help CHANNEL;2020/6/16;16:14:39
+general;Kartodix#2540;?help CHANNEL;2020/6/16;16:15:31
+general;Kartodix#2540;?help AUTHOR;2020/6/16;16:17:19
+general;Kartodix#2540;?close;2020/6/16;16:17:36
+general;Kartodix#2540;?help AUTHOR;2020/6/16;16:18:1
+general;Kartodix#2540;?close;2020/6/16;16:18:37
+general;Kartodix#2540;?help AUTHOR;2020/6/16;16:18:53
+general;Kartodix#2540;?help CHANNEL;2020/6/16;16:19:8
+general;Kartodix#2540;?close;2020/6/16;16:20:1
+general;Kartodix#2540;?help AUTHOR;2020/6/16;16:21:3
+general;Kartodix#2540;?help CHANNEL;2020/6/16;16:21:21
+general;Tehistir#9627;?help AUTHOR;2020/6/16;16:21:49
+general;Tehistir#9627;?help CHANNEL;2020/6/16;16:21:57
+general;Kartodix#2540;?help CHANNEL;2020/6/16;16:22:8
+general;Kartodix#2540;?help AUTHOR;2020/6/16;16:22:18
+commandes;Kartodix#2540;!leave;2020/6/16;16:23:57
+general;Axel#5959;hey !;2020/6/16;16:23:59
+general;Tehistir#9627;hey;2020/6/16;16:24:10
+general;Kartodix#2540;?help AUTHOR;2020/6/16;16:26:47
+general;Axel#5959;?help AUTHOR;2020/6/16;16:26:50
+general;Kartodix#2540;https://media.discordapp.net/attachments/721824412290121768/722417563665039420/Capture_decran_de_2020-06-16_13-48-19.png?width=372&height=703;2020/6/16;16:35:25
+general;Kartodix#2540;?close;2020/6/16;16:38:34
+codes;Kartodix#2540;?close;2020/6/16;17:21:7
+codes;Kartodix#2540;?help AUTHOR;2020/6/16;17:22:0
+codes;Kartodix#2540;?close;2020/6/16;17:22:16
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;17:28:10
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;17:30:10
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;17:30:25
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;17:32:40
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;17:32:59
+commandes;Kartodix#2540;!play 10 Freaky Girls;2020/6/16;17:33:28
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;17:34:0
+spambot-kartodix;Kartodix#2540;?help CHANNEL;2020/6/16;17:34:16
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;17:35:30
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;17:38:2
+spambot-kartodix;Kartodix#2540;?help CONTENT;2020/6/16;17:38:21
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;17:38:51
+general;Kartodix#2540;?help AUTHOR;2020/6/16;17:42:35
+general;Tehistir#9627;?help AUTHOR;2020/6/16;17:42:50
+general;Tehistir#9627;?close;2020/6/16;17:43:23
+general;Kartodix#2540;?close;2020/6/16;17:43:27
+general;Tehistir#9627;?help AUTHOR;2020/6/16;17:43:43
+general;Tehistir#9627;?close;2020/6/16;17:43:58
+commandes;Kartodix#2540;!leave;2020/6/16;17:59:46
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:1:13
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;18:1:41
+spambot-kartodix;Kartodix#2540;?help CHANNEL;2020/6/16;18:2:14
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:3:23
+spambot-kartodix;Kartodix#2540;?help CHANNEL;2020/6/16;18:4:34
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:5:0
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;18:5:20
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:6:7
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;18:8:44
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:9:11
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;18:10:44
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;18:10:58
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:14:12
+spambot-kartodix;Kartodix#2540;?help CHANNEL;2020/6/16;18:14:37
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;18:14:53
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:15:10
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;18:15:19
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:22:0
+spambot-kartodix;Kartodix#2540;?help DATE;2020/6/16;18:25:3
+spambot-kartodix;Kartodix#2540;?help TIME;2020/6/16;18:25:14
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:25:28
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;18:29:18
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;18:29:34
+spambot-kartodix;Kartodix#2540;?help CHANNEL;2020/6/16;18:29:54
+spambot-kartodix;KartoBix#3897;?help;2020/6/16;18:31:4
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;18:31:35
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:33:53
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;18:34:5
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;18:34:12
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:34:28
+spambot-kartodix;Kartodix#2540;?help CHANNEL;2020/6/16;18:34:52
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;18:35:13
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;18:35:17
+spambot-kartodix;Kartodix#2540;?help channel;2020/6/16;18:42:2
+spambot-kartodix;Kartodix#2540;?help CHANNEL;2020/6/16;18:42:10
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;18:42:24
+spambot-kartodix;Kartodix#2540;?help CONTENT;2020/6/16;18:42:42
+spambot-kartodix;Kartodix#2540;?help CONTENT;2020/6/16;18:42:54
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;18:42:59
+general;Kartodix#2540;<@!185813060378689536> re;2020/6/16;20:26:2
+general;Tehistir#9627;!play https://www.youtube.com/watch?v=k6yBgnHtJF0;2020/6/16;20:26:35
+general;Tehistir#9627;!play https://www.youtube.com/watch?v=NNug4Udrg-w;2020/6/16;20:27:25
+spambot-kartodix;Kartodix#2540;"```python
+print(""hello"")
+```";2020/6/16;20:27:40
+general;Tehistir#9627;!play https://www.youtube.com/watch?v=NNug4Udrg-w;2020/6/16;20:29:7
+spambot-kartodix;Kartodix#2540;@close;2020/6/16;20:29:19
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;20:29:33
+spambot-kartodix;Kartodix#2540;?help AUTHOR;2020/6/16;20:30:48
+discu2;Tehistir#9627;?help AUTHOR;2020/6/16;20:31:6
+spambot-kartodix;Kartodix#2540;"```python
+print(""hello"")
+```";2020/6/16;20:32:25
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;20:34:57
+spambot-kartodix;Kartodix#2540;hello;2020/6/16;20:35:24
+general;Kartodix#2540;?close;2020/6/16;20:39:45
+general;Kartodix#2540;?help AUTHOR;2020/6/16;20:39:59
+general;Kartodix#2540;?help;2020/6/16;20:40:13
+commandes;Kartodix#2540;!leave;2020/6/16;20:41:7
+commandes;Kartodix#2540;!play 6.3 ninho;2020/6/16;20:41:15
+commandes;Kartodix#2540;!play vibez dababy;2020/6/16;20:45:14
+commandes;Kartodix#2540;?close;2020/6/16;20:47:51
+general;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:28:39
+general;Kartodix#2540;?close;2020/6/16;21:29:22
+general;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:29:44
+general;Kartodix#2540;?close;2020/6/16;21:30:34
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:31:2
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:31:36
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:31:51
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:32:18
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:32:34
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:32:51
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:33:30
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:33:49
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:34:50
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:35:22
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:37:53
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:38:46
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;21:41:58
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:42:6
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:42:17
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:44:19
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:44:58
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:50:19
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:52:24
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:52:50
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:53:14
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:53:31
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:54:19
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:54:33
+Direct Message with Kartodix#2540;Kartodix#2540;?close;2020/6/16;21:55:26
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:55:55
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:56:17
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:56:38
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:56:54
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:57:7
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;21:57:38
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;21:57:54
+spambot-kartodix;Kartodix#2540;?new AUTHOR 3;2020/6/16;21:58:29
+spambot-kartodix;Kartodix#2540;?new CHANNEL 5;2020/6/16;21:58:44
+Direct Message with Kartodix#2540;Kartodix#2540;?close;2020/6/16;21:59:44
+spambot-kartodix;Kartodix#2540;?new CHANNEL 3;2020/6/16;22:0:21
+spambot-kartodix;Kartodix#2540;?new AUTHOR 1;2020/6/16;22:0:42
+general;Kartodix#2540;"<@!353113202575278081> je viens de rajouter une feature ! Maintenant si on fait ""?new CHANNEL 5"" on reï¿½oit en message privï¿½ les 5 channels les plus actifs";2020/6/16;22:2:7
+general;Kartodix#2540;?close;2020/6/16;22:7:8
+general;Tehistir#9627;?new AUTHOR 5;2020/6/16;22:9:51
+general;Kartodix#2540;?close;2020/6/16;22:10:24
+general;Kartodix#2540;?new AUTHOR 5;2020/6/16;22:10:44
+general;Kartodix#2540;?close;2020/6/16;22:11:50
+general;Kartodix#2540;?new CHANNEL 3;2020/6/16;22:12:31
+general;Kartodix#2540;?close;2020/6/16;22:13:43
+general;Kartodix#2540;?new CHANNEL 3;2020/6/16;22:14:2
+general;Tehistir#9627;?new AUTHOR 5;2020/6/16;22:14:32
+general;Kartodix#2540;?new AUTHOR 5;2020/6/16;22:14:56
+general;Kartodix#2540;?new AUTHOR 100;2020/6/16;22:15:10
+general;Tehistir#9627;?new CHANNEL 5;2020/6/16;22:15:33
+general;Kartodix#2540;?help AUTHOR;2020/6/16;22:17:16
+commandes;Kartodix#2540;!play filon ninho;2020/6/16;22:21:13
+commandes;Kartodix#2540;?close;2020/6/16;22:23:54
+commandes;Kartodix#2540;?new AUTHOR 5;2020/6/16;22:24:11
+commandes;Kartodix#2540;?close;2020/6/16;22:24:24
+commandes;Kartodix#2540;?new AUTHOR 5;2020/6/16;22:24:39
+commandes;Kartodix#2540;!leave;2020/6/16;22:25:22
+commandes;Kartodix#2540;!play fendi ninho;2020/6/16;22:28:45
+general;Kartodix#2540;?close;2020/6/16;22:29:44
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:30:16
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:31:35
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:31:48
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:32:54
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:33:8
+general;Kartodix#2540;ooh enorme;2020/6/16;22:34:14
+general;Axel#5959;merci ^^;2020/6/16;22:34:30
+general;Kartodix#2540;ah d'accord, je viens de me rendre compte que je n'avais pas d'encodage donc des qu'on envoie un accent ca fait tout planter... je vais regler cela..;2020/6/16;22:35:3
+courage ^^";2020/6/16;22:35:13
+general;Kartodix#2540;haha merci;2020/6/16;22:35:54
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;22:36:22
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;22:36:31
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;22:37:27
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;22:38:32
+spambot-kartodix;Kartodix#2540;héhé;2020/6/16;22:38:38
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;22:38:50
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;22:38:58
+spambot-kartodix;Kartodix#2540;?new AUTHOR 5;2020/6/16;22:39:58
+spambot-kartodix;Kartodix#2540;éééééééééééééééé;2020/6/16;22:40:7
+spambot-kartodix;Kartodix#2540;?new CHANNEL 3;2020/6/16;22:40:12
+general;Axel#5959;Merci ^^;2020/6/16;22:41:20
+commandes;Kartodix#2540;!play un poco ninho;2020/6/16;22:43:45
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:47:22
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:47:53
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:48:3
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:48:22
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:48:43
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:49:5
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:51:32
+commandes;Kartodix#2540;!play everyday rod stewart;2020/6/16;22:52:3
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:52:15
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:52:38
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:53:28
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:53:39
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:54:20
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:54:57
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:55:7
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:55:12
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:55:25
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:55:49
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:56:0
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:56:7
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:56:25
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:56:34
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:58:21
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;22:58:51
+fonctionnement-bot;Kartodix#2540;?help;2020/6/16;22:59:1
+spambot-tehistir;Tehistir#9627;?help;2020/6/16;22:59:19
+fonctionnement-bot;Kartodix#2540;?close;2020/6/16;23:1:21
+spambot-kartodix;Kartodix#2540;?help;2020/6/16;23:1:56
+spambot-kartodix;Kartodix#2540;?graph DATE;2020/6/16;23:2:5
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;23:3:28
+spambot-kartodix;Kartodix#2540;?cls CHANNEL 2;2020/6/16;23:3:43
+spambot-kartodix;Kartodix#2540;?graph CHANNEL;2020/6/16;23:4:13
+commandes;Kartodix#2540;!play roxanne arizona zervas;2020/6/16;23:4:55
+spambot-kartodix;Kartodix#2540;?graph AUTHOR 5;2020/6/16;23:5:18
+spambot-kartodix;Kartodix#2540;?cls AUTHOR 5;2020/6/16;23:5:28
+spambot-kartodix;Kartodix#2540;?close;2020/6/16;23:7:28
