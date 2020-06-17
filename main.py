@@ -2,8 +2,10 @@ import discord
 import datetime
 import csv
 import os
-from analysis import getPreciseData
-from analysis import preciseData
+from analysis import histogrammeBot
+from analysis import classementBot
+from sendmail import send_resume_email
+from createpdf import createPdfFile
 
 def discordBot():
     client = discord.Client()
@@ -67,18 +69,26 @@ def discordBot():
                 embed = discord.Embed(title="**Formulaire de commandes**", description=description, color=0xD35400)
                 await message.channel.send(embed=embed)
 
-            # graphique
+            # histogramme
             if (str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?graph") and (str(message.content).split()[1] in categories):
-                getPreciseData(str(message.content.split()[1]))
+                histogrammeBot(str(message.content.split()[1]), int(message.content.split()[2]))
                 await author.send(file=discord.File('current_graph.png'))
                 os.remove('current_graph.png')
 
             # classement
             if (str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?cls") and (str(message.content).split()[1] in categories) and (str(message.content).split()[2]):
                 title="**Classement "+str(message.content).split()[1]+"**"
-                description=str(preciseData(str(message.content).split()[1], int(str(message.content).split()[2])))
+                description=str(classementBot(str(message.content).split()[1], int(str(message.content).split()[2])))
                 embed = discord.Embed(title=title, description=description, color=0x3498DB)
                 await message.author.send(embed=embed)
+
+            # send daily resume per mail
+            if(str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?mail") and (str(message.content).split()[1]):
+                toaddr_ = str(message.content).split()[1]
+                createPdfFile()
+                send_resume_email(toaddr_)
+                await message.channel.send('Email envoyé! :)')
+
     client.run(TOKEN)
 
 discordBot()

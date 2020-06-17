@@ -3,8 +3,7 @@ def getPreciseData(category):
         Affiche un camembert de la répartition des messages 
         en fonction du paramètre
     """
-    # main('dataset.csv')
-    # création de la liste des valeurs uniques
+    openDataFrame()
     slices = []
     for i in range(len(df[category].value_counts())):
         slices.append(df[category].value_counts()[i])
