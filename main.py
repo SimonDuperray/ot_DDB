@@ -75,10 +75,11 @@ def discordBot():
                 os.remove('current_graph.png')
 
             # classement
-            # to add -> embed pour le classement
             if (str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?cls") and (str(message.content).split()[1] in categories) and (str(message.content).split()[2]):
-                await message.author.send(preciseData(str(message.content).split()[1], int(str(message.content).split()[2])))
-
+                title="**Classement "+str(message.content).split()[1]+"**"
+                description=str(preciseData(str(message.content).split()[1], int(str(message.content).split()[2])))
+                embed = discord.Embed(title=title, description=description, color=0x3498DB)
+                await message.author.send(embed=embed)
     client.run(TOKEN)
 
 discordBot()
