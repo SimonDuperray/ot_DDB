@@ -4,14 +4,13 @@ import csv
 import os
 from analysis import getPreciseData
 from analysis import preciseData
-# from discord.ext import commands
 
 def discordBot():
     client = discord.Client()
-    # client = commands.Bot(command_prefix="?")
     TOKEN = "NzIxOTg2NjMxNjc4MTY1MDM0.Xuc2kQ.B4m0n98h1yvPhzJ3imJRlSV10jg"
     botsID = ['DDB#1758', 'DataDiscordBot#3453']
     authorizedPseudos = ['Kartodix#2540', 'Tehistir#9627']
+    adminClose = "Kartodix#2540"
     categories = ['CHANNEL', 'AUTHOR', 'CONTENT', 'DATE', 'TIME']
 
     @client.event
@@ -26,7 +25,7 @@ def discordBot():
         if message.author == client.user:
             return
 
-        # si n'importe quel mesage est envoyé dans n'importe quel channel...
+        # si n'importe quel mesage est envoyé dans n'importe quel channel du serveur...
         if message.content:
             currentDatetime = datetime.datetime.now()
             currentDate = str(currentDatetime.year)+str('/')+str(currentDatetime.month)+str('/')+str(currentDatetime.day)
@@ -45,7 +44,7 @@ def discordBot():
                     writer.writerow(currentDataSet)
 
             # deconnexion du bot
-            if (str(message.author) in authorizedPseudos) and (str(message.content) == "?close"):
+            if (str(message.author) == adminClose) and (str(message.content) == "?close"):
                 await message.channel.send("Je dois y aller !")
                 await client.close()
 
