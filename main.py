@@ -88,6 +88,7 @@ def discordBot():
                 createPdfFile()
                 send_resume_email(toaddr_)
                 await message.channel.send('Email envoyé! :)')
+                os.remove('daily_resume.pdf')
 
     client.run(TOKEN)
 

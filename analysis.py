@@ -54,18 +54,19 @@ def clsPdf(category, number):
             cls_[str(labels_list[i])] = int(data_list[i])
     return cls_
 
-def graphsPdf(category):
+def graphsPdf(category, number):
     """ 
-        NON FONCTIONNEL
+        EN TEST
         Envoi des graphs pour les afficher sur le pdf
     """
     openDataFrame()
-    slices = []
-    for i in range(len(df[category].value_counts())):
-        slices.append(df[category].value_counts()[i])
-    labels = list(df[category].unique())
+    todayDate = datetime.datetime.now()
+    currentDate = str(todayDate.year)+str('/')+str(todayDate.month)+str('/')+str(todayDate.day)
+    new_df = df[df['DATE']==currentDate]
+    labels_list = list(new_df[category].value_counts().head(number).index)
+    data_list = list(new_df[category].value_counts().head(number))
     fig, ax = plt.subplots()
-    plt.bar(labels, slices)
+    plt.bar(labels_list, data_list)
     plt.title("Activité des: "+ category)
     plt.xticks(rotation=45)
     title_graph = "graphs-mail/current_" + str(category)+str(".png")
