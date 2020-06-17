@@ -132,5 +132,4 @@ def discordBot():
 
     client.run(TOKEN)
 
-if __name__ == __main__:
-    discordBot()
+discordBot()
