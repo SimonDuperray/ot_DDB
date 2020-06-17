@@ -4,9 +4,11 @@ import csv
 import os
 from analysis import getPreciseData
 from analysis import preciseData
+# from discord.ext import commands
 
 def discordBot():
     client = discord.Client()
+    # client = commands.Bot(command_prefix="?")
     TOKEN = "NzIxOTg2NjMxNjc4MTY1MDM0.Xuc2kQ.B4m0n98h1yvPhzJ3imJRlSV10jg"
     botsID = ['DDB#1758', 'DataDiscordBot#3453']
     authorizedPseudos = ['Kartodix#2540', 'Tehistir#9627']
@@ -17,6 +19,7 @@ def discordBot():
         print("===================")
         print("Main Bot connected")
         print("===================")
+        await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="?help to see commands"))
 
     @client.event 
     async def on_message(message):
@@ -72,6 +75,7 @@ def discordBot():
                 os.remove('current_graph.png')
 
             # classement
+            # to add -> embed pour le classement
             if (str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?cls") and (str(message.content).split()[1] in categories) and (str(message.content).split()[2]):
                 await message.author.send(preciseData(str(message.content).split()[1], int(str(message.content).split()[2])))
 
