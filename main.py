@@ -10,49 +10,81 @@ from createpdf import createPdfFile
 from createpdf import returnFileName
 
 def discordBot():
+    """
+        FONCTIONNEL
+        Fonction: Fichier principal du Bot
+        Fonctionnalités: -> Détection de message
+                         -> Enregistrement des messages dans le fichier csv (except bot and embed)
+                         -> Déconnexion du bot
+                         -> Formulaire de commandes
+                         -> Histogramme (message privé)
+                         -> Camembert (message privé)
+                         -> Classement (message privé)
+                         -> Envoi de résumé quotidien par mail (en pdf)
+        Modifications:   -> Prendre en compte les messages envoyés sur le serveur (no messages privés)
+                         -> Formulaire de commandes
+                         -> Salons vocaux
+                         -> Trouver les id de tous les salons (compter nb) pour fichier pdf
+                         -> Stocker / Encrypter le token dans un fichier externe
+                         -> Utiliser des filtres pour l'heure (ne plus prendre en compte les secondes)
+                         -> Newsletter (envoi automatique des mails à minuit)
+    """
+
+    # Création d'un nouveau client
     client = discord.Client()
     TOKEN = "NzIxOTg2NjMxNjc4MTY1MDM0.Xuc2kQ.B4m0n98h1yvPhzJ3imJRlSV10jg"
-    botsID = ['DDB#1758', 'DataDiscordBot#3453']
-    authorizedPseudos = ['Kartodix#2540', 'Tehistir#9627']
-    adminClose = "Kartodix#2540"
-    categories = ['CHANNEL', 'AUTHOR', 'CONTENT', 'DATE', 'TIME']
 
+    # Filtres
+    botsID = ['DDB#1758', 'DataDiscordBot#3453'] # ne pas prendre en compte les messages envoyés par les bots
+    authorizedPseudos = ['Kartodix#2540', 'Tehistir#9627'] # personnes autorisées à utiliser les commandes
+    adminClose = "Kartodix#2540" # personne autorisée à fermer le bot
+    categories = ['CHANNEL', 'AUTHOR', 'CONTENT', 'DATE', 'TIME'] # labels disponibles pour les statistiques
+
+    # Connexion du Bot au serveur
     @client.event
     async def on_ready():
         print("===================")
         print("Main Bot connected")
         print("===================")
+        # Message de statut
         await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="?help to see commands"))
 
+    # Détecteur de messages
     @client.event 
     async def on_message(message):
         if message.author == client.user:
             return
 
-        # si n'importe quel mesage est envoyé dans n'importe quel channel du serveur...
+        # Si un message est envoyé...
         if message.content:
+            
+            # Récupération de la date et de l'heure à laquelle le message a été envoyé
             currentDatetime = datetime.datetime.now()
             currentDate = str(currentDatetime.year)+str('/')+str(currentDatetime.month)+str('/')+str(currentDatetime.day)
             currentTime = str(currentDatetime.hour)+str(':')+str(currentDatetime.minute)+str(':')+str(currentDatetime.second)
+
             author = message.author
+
+            # Initialisation et stockage des données du message dans la liste unique
             currentDataSet = []
             currentDataSet.append(message.channel)
             currentDataSet.append(message.author)
             currentDataSet.append(message.content)
             currentDataSet.append(currentDate)
             currentDataSet.append(currentTime)
-            # si ce n'est pas un bot qui envoie le message et si ce n'est pas un embed alors on l'ajoute dans le csv
+
+            # Si ce n'est pas un bot qui envoie le message et si ce n'est pas un embed alors on l'ajoute dans le csv
             if not str(message.author) in botsID and not message.content.startswith('```'):
                 with open("dataset.csv", "a", newline='') as f:
                     writer = csv.writer(f, delimiter=";")
                     writer.writerow(currentDataSet)
 
-            # deconnexion du bot
+            # Deconnexion du bot
             if (str(message.author) == adminClose) and (str(message.content) == "?close"):
                 await message.channel.send("Je dois y aller !")
                 await client.close()
 
-            # formulaire de commandes
+            # Formulaire de commandes
             if (str(message.author) in authorizedPseudos) and (str(message.content) == "?help"):
                 description = ('===============\n'
                                'Graphiques:\n'
@@ -71,26 +103,26 @@ def discordBot():
                 embed = discord.Embed(title="**Formulaire de commandes**", description=description, color=0xD35400)
                 await message.channel.send(embed=embed)
 
-            # histogramme
+            # Histogramme
             if (str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?hist") and (str(message.content).split()[1] in categories):
                 histogrammeBot(str(message.content.split()[1]), int(message.content.split()[2]))
                 await author.send(file=discord.File('hist.png'))
                 os.remove('hist.png')
 
-            # camembert
+            # Camembert
             if(str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?cam") and (str(message.content).split()[1] in categories) and (str(message.content).split()[2]):
                 camembertBot(str(message.content).split()[1], int(message.content.split()[2]))
                 await author.send(file=discord.File('cam.png'))
                 os.remove('cam.png')
 
-            # classement
+            # Classement
             if (str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?cls") and (str(message.content).split()[1] in categories) and (str(message.content).split()[2]):
                 title="**Classement "+str(message.content).split()[1]+"**"
                 description=str(classementBot(str(message.content).split()[1], int(str(message.content).split()[2])))
                 embed = discord.Embed(title=title, description=description, color=0x3498DB)
                 await message.author.send(embed=embed)
 
-            # send daily resume per mail
+            # Envoi du résumé par mail
             if(str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?mail") and (str(message.content).split()[1]):
                 toaddr_ = str(message.content).split()[1]
                 createPdfFile()
@@ -100,4 +132,5 @@ def discordBot():
 
     client.run(TOKEN)
 
-discordBot()
+if __name__ == __main__:
+    discordBot()
