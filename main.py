@@ -4,8 +4,10 @@ import csv
 import os
 from analysis import histogrammeBot
 from analysis import classementBot
+from analysis import camembertBot
 from sendmail import send_resume_email
 from createpdf import createPdfFile
+from createpdf import returnFileName
 
 def discordBot():
     client = discord.Client()
@@ -70,10 +72,16 @@ def discordBot():
                 await message.channel.send(embed=embed)
 
             # histogramme
-            if (str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?graph") and (str(message.content).split()[1] in categories):
+            if (str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?hist") and (str(message.content).split()[1] in categories):
                 histogrammeBot(str(message.content.split()[1]), int(message.content.split()[2]))
-                await author.send(file=discord.File('current_graph.png'))
-                os.remove('current_graph.png')
+                await author.send(file=discord.File('hist.png'))
+                os.remove('hist.png')
+
+            # camembert
+            if(str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?cam") and (str(message.content).split()[1] in categories) and (str(message.content).split()[2]):
+                camembertBot(str(message.content).split()[1], int(message.content.split()[2]))
+                await author.send(file=discord.File('cam.png'))
+                os.remove('cam.png')
 
             # classement
             if (str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?cls") and (str(message.content).split()[1] in categories) and (str(message.content).split()[2]):
@@ -88,7 +96,7 @@ def discordBot():
                 createPdfFile()
                 send_resume_email(toaddr_)
                 await message.channel.send('Email envoyé! :)')
-                os.remove('daily_resume.pdf')
+                os.remove(returnFileName())
 
     client.run(TOKEN)
 

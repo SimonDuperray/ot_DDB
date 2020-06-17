@@ -24,7 +24,8 @@ def createPdfFile():
     # on récupère la date actuelle pour rafraichir le titre du pdf
     todayDate = datetime.datetime.now()
     currentDate = str(todayDate.day)+str(' - ')+str(todayDate.month)+str(' - ')+str(todayDate.year)
-    fileName = "daily_resume.pdf"
+    global fileName
+    fileName = "daily_resume" + str(todayDate.day) + str(todayDate.month) + str(todayDate.year) + ".pdf"
     documentTitle = "DailyResume"
     title = "ACTIVITE QUOTIDIENNE DU " + currentDate
 
@@ -105,4 +106,5 @@ def createPdfFile():
     for f in filelist:
         os.remove(os.path.join("graphs-mail", f))
 
-createPdfFile()
+def returnFileName():
+    return fileName

@@ -26,7 +26,7 @@ def histogrammeBot(category, number):
     plt.title("Répartition des messages p/r " + category)
     # légende horizontale inclinée de 45deg
     plt.xticks(rotation=45)
-    plt.savefig('current_graph.png')
+    plt.savefig('hist.png')
     plt.close()
 
 def classementBot(category, number):
@@ -36,6 +36,22 @@ def classementBot(category, number):
     """
     openDataFrame()
     return df[category].value_counts().head(number)
+
+def camembertBot(category, number):
+    """
+        FONCTIONNEL
+        Test envoi camembert selection dataframe
+    """
+    openDataFrame()
+    labels_list = list(df[category].value_counts().head(number).index)
+    data_list = list(df[category].value_counts().head(number))
+    # création du diagramme
+    plt.pie(data_list, autopct='%1.1f%%', wedgeprops={'edgecolor': 'black'})
+    plt.title("Répartition messages p/r " + category)
+    plt.legend(labels_list)
+    plt.tight_layout()
+    plt.savefig('cam.png')
+    plt.close()
 
 def clsPdf(category, number):
     """
@@ -56,7 +72,7 @@ def clsPdf(category, number):
 
 def graphsPdf(category, number):
     """ 
-        EN TEST
+        FONCTIONNEL
         Envoi des graphs pour les afficher sur le pdf
     """
     openDataFrame()
@@ -73,21 +89,3 @@ def graphsPdf(category, number):
     plt.savefig(title_graph)
     plt.close()
     labels=[]
-
-def getPreciseDataCamembert(category, number):
-    """
-        NON FONCTIONNEL
-        Test envoi camembert selection dataframe
-    """
-    openDataFrame()
-    slices = []
-    for i in range(len(df[category].value_counts())):
-        slices.append(df[category].value_counts().head(number)[i])
-    # création de la liste de labels
-    labels = list(df[category].unique())
-    # création du diagramme
-    plt.pie(slices, labels=labels, autopct='%1.1f%%', wedgeprops={'edgecolor': 'black'})
-    plt.title("Répartition messages p/r " + category)
-    plt.tight_layout()
-    plt.savefig('current_graph.png')
-    plt.close()
