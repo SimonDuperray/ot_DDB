@@ -22,10 +22,8 @@ def discordBot():
                          -> Classement (message privé)
                          -> Envoi de résumé quotidien par mail (en pdf)
         Modifications:   -> Prendre en compte les messages envoyés sur le serveur (no messages privés)
-                         -> Formulaire de commandes
                          -> Salons vocaux
                          -> Trouver les id de tous les salons (compter nb) pour fichier pdf
-                         -> Stocker / Encrypter le token dans un fichier externe
                          -> Utiliser des filtres pour l'heure (ne plus prendre en compte les secondes)
                          -> Newsletter (envoi automatique des mails à minuit)
     """
@@ -87,18 +85,30 @@ def discordBot():
             # Formulaire de commandes
             if (str(message.author) in authorizedPseudos) and (str(message.content) == "?help"):
                 description = ('===============\n'
-                               'Graphiques:\n'
+                               'PARAMETRES:\n'
                                '===============\n'
                                '```'
-                               '-> ?graph PARAMETRE\n\n'
-                               '-> Liste des paramètres: AUTHOR CHANNEL DATE (TIME)'
+                               '-> Paramètres disponibles:\n\n'
+                               'PARAMETRE: CHANNEL / AUTHOR / DATE\n\n'
+                               'nb: précision du classement\n'
                                '```'
                                '===============\n'
-                               'Classements:\n'
+                               'HISTOGRAMMES:\n'
                                '===============\n'
                                '```'
-                               '-> ?cls PARAMETRE\n\n'
-                               '-> Liste des paramètres: AUTHOR CHANNEL DATE (TIME)'
+                               '-> ?hist PARAMETRE nb\n\n'
+                               '```'
+                               '===============\n'
+                               'CAMEMBERTS:\n'
+                               '===============\n'
+                               '```'
+                               '-> ?cam PARAMETRE nb\n\n'
+                               '```'
+                               '===============\n'
+                               'CLASSEMENTS:\n'
+                               '===============\n'
+                               '```'
+                               '-> ?cls PARAMETRE nb\n\n'
                                '```')
                 embed = discord.Embed(title="**Formulaire de commandes**", description=description, color=0xD35400)
                 await message.channel.send(embed=embed)

@@ -74,8 +74,16 @@ def camembertBot(category, number):
     labels_list = list(df[category].value_counts().head(number).index)
     data_list = list(df[category].value_counts().head(number))
 
+    # Génération d'une liste de couleurs aléatoires
+    colors = []
+    for i in range(len(labels_list)):
+        rd_nb = random.randint(0, 16777215)
+        hex_nb = str(hex(rd_nb))
+        hex_nb = '#'+hex_nb[2:]
+        colors.append(hex_nb)
+
     # Création du diagramme
-    plt.pie(data_list, autopct='%1.1f%%', wedgeprops={'edgecolor': 'black'})
+    plt.pie(data_list, autopct='%1.1f%%', wedgeprops={'edgecolor': 'black'},colors=colors)
     plt.title("Répartition messages p/r " + category)
     plt.legend(labels_list)
     plt.tight_layout()
