@@ -63,8 +63,7 @@ def camembertBot(category, number):
         Paramètres: -> category: AUTHOR CHANNEL DATE
                     -> number  : taille du classement
         Fonction: Envoi d'un diagramme camembert en message privé
-        Modifications: -> Changer la palette de couleurs 
-                       -> Personnaliser le graphique
+        Modifications: None
     """
 
     # Récupération du DataFrame
