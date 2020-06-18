@@ -85,7 +85,7 @@ def createPdfFile():
 
     # Séparateurs horizontaux et verticaux 
     pdf.line(340, 710, 340, 600)
-    pdf.line(60, 580, 540, 580)
+    pdf.line(60, 570, 540, 570)
 
     # PARTIE STATISTIQUES GLOBALES
     pdf.drawString(100, 550, "Statistiques Globales")

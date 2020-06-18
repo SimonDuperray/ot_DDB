@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt 
 import datetime
+import random
 
 def openDataFrame():
     """
@@ -17,8 +18,7 @@ def histogrammeBot(category, number):
         Paramètres: -> category: AUTHOR CHANNEL DATE
                     -> number  : taille du classement
         Fonction: Envoi d'un histogramme en message privé.
-        Modifications: -> Changer la palette de couleurs  
-                       -> Légende en dehors du graphique
+        Modifications: None
     """
 
     # Récupération du DataFrame
@@ -28,13 +28,18 @@ def histogrammeBot(category, number):
     labels_list = list(df[category].value_counts().head(number).index)
     data_list = list(df[category].value_counts().head(number))
 
-    # Création de l'histogramme
-    fig, ax = plt.subplots()
-    plt.bar(labels_list, data_list)
-    plt.title("Répartition des messages p/r " + category)
+    # Lambda expression pour générer des couleurs aléatoires
+    get_colors = lambda n: list(map(lambda i: "#" + "%06x" % random.randint(0, 0xFFFFFF),range(n)))
 
-    # légende horizontale inclinée de 45deg
-    plt.xticks(rotation=45)
+    # Création, enregistrement et suppression de l'histogramme
+    for k in range(len(labels_list)):
+        plt.bar(labels_list[k], data_list[k], label=labels_list[k], color=get_colors(1))
+    
+    plt.title("Activité des: "+ category)
+    plt.xticks(rotation=20)
+    plt.xlabel(category)
+    plt.ylabel('values')
+    plt.legend()
     plt.savefig('hist.png')
     plt.close()
 
@@ -113,8 +118,7 @@ def graphsPdf(category, number):
         Paramètres: -> category: AUTHOR CHANNEL DATE
                     -> number  : taille du classement
         Fonction: On sauvegarde le graphique 'category'/'number' avec les données du jour
-        Modifications: -> Changer la palette de couleurs 
-                       -> Personnaliser le graphique
+        Modifications: None
     """
 
     # Récupération du DataFrame
@@ -131,12 +135,18 @@ def graphsPdf(category, number):
     labels_list = list(new_df[category].value_counts().head(number).index)
     data_list = list(new_df[category].value_counts().head(number))
 
+    # Lambda expression pour générer des couleurs aléatoires
+    get_colors = lambda n: list(map(lambda i: "#" + "%06x" % random.randint(0, 0xFFFFFF), range(n)))
+    
     # Création, enregistrement, exploitation et suppression du diagramme camembert
-    fig, ax = plt.subplots()
-    plt.bar(labels_list, data_list)
+    for j in range(len(labels_list)):
+        plt.bar(labels_list[j], data_list[j], label=labels_list[j], color=get_colors(1))
+    
     plt.title("Activité des: "+ category)
-    plt.xticks(rotation=45)
+    plt.xticks(rotation=20)
+    plt.xlabel(category)
+    plt.ylabel('values')
+    plt.legend()
     title_graph = "graphs-mail/current_" + str(category)+str(".png")
     plt.savefig(title_graph)
     plt.close()
-    labels=[]
