@@ -128,8 +128,12 @@ def discordBot():
             # Classement
             if (str(message.author) in authorizedPseudos) and (str(message.content).split()[0]=="?cls") and (str(message.content).split()[1] in categories) and (str(message.content).split()[2]):
                 title="**Classement "+str(message.content).split()[1]+"**"
-                description=str(classementBot(str(message.content).split()[1], int(str(message.content).split()[2])))
-                embed = discord.Embed(title=title, description=description, color=0x3498DB)
+                cls_ = classementBot(str(message.content).split()[1], int(str(message.content).split()[2]))
+                description = ""
+                for i in range(len(cls_)):
+                    currentPos = str(i+1)+str(". ")+str(str(" ")+str(list(cls_.keys())[i])) + str("=>") + str(list(cls_.values())[i])
+                    description+= str('```css\n')+currentPos+str('```') 
+                embed = discord.Embed(title=title, description=str(description), color=0x3498DB)
                 await message.author.send(embed=embed)
 
             # Envoi du résumé par mail

@@ -49,13 +49,25 @@ def classementBot(category, number):
         Paramètres: -> category: AUTHOR CHANNEL DATE
                     -> number  : taille du classement
         Fonction: Envoi du classement en message privé
-        Modifications: -> Mise en page dans l'embed à revoir
+        Modifications: None
     """
     # Récupération du DataFrame
     openDataFrame()
 
-    # On retourne les 'number' premières valeurs de 'category'
-    return df[category].value_counts().head(number)
+    # # On retourne les 'number' premières valeurs de 'category'
+    # return df[category].value_counts().head(number)
+    
+    # Récupération des labels et des valeurs du jour
+    labels_list = list(df[category].value_counts().head(number).index)
+    data_list = list(df[category].value_counts().head(number))
+
+    # Création et stockage des valeurs et des labels dans un dictionnaire (mise en page)
+    global cls_
+    cls_ = {}
+    for i in range(len(labels_list)):
+        if(str(labels_list[i]) not in cls_.keys()):
+            cls_[str(labels_list[i])] = int(data_list[i])
+    return cls_
 
 def camembertBot(category, number):
     """
