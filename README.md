@@ -1,5 +1,3 @@
-# ot_DDB
-DataDiscordBot - Python bot for Discord server analysis
 # DataDiscordBot
 
 [-> Repository](https://github.com/SimonDuperray/ot_DDB)
