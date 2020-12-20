@@ -30,12 +30,12 @@ def discordBot():
 
     # Création d'un nouveau client
     client = discord.Client()
-    TOKEN = "NzIxOTg2NjMxNjc4MTY1MDM0.Xuc2kQ.B4m0n98h1yvPhzJ3imJRlSV10jg"
+    TOKEN = "token"
 
     # Filtres
-    botsID = ['DDB#1758', 'DataDiscordBot#3453'] # ne pas prendre en compte les messages envoyés par les bots
-    authorizedPseudos = ['Kartodix#2540', 'Tehistir#9627'] # personnes autorisées à utiliser les commandes
-    adminClose = "Kartodix#2540" # personne autorisée à fermer le bot
+    botsID = [] # ne pas prendre en compte les messages envoyés par les bots
+    authorizedPseudos = [] # personnes autorisées à utiliser les commandes
+    adminClose = "" # personne autorisée à fermer le bot
     categories = ['CHANNEL', 'AUTHOR', 'CONTENT', 'DATE', 'TIME'] # labels disponibles pour les statistiques
 
     # Connexion du Bot au serveur
@@ -45,7 +45,7 @@ def discordBot():
         print("Main Bot connected")
         print("===================")
         # Message de statut
-        await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="?help to see commands"))
+        # await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="?help to see commands"))
 
     # Détecteur de messages
     @client.event 
@@ -73,13 +73,13 @@ def discordBot():
 
             # Si ce n'est pas un bot qui envoie le message et si ce n'est pas un embed alors on l'ajoute dans le csv
             if not str(message.author) in botsID and not message.content.startswith('```'):
-                with open("dataset.csv", "a", newline='') as f:
+                with open("dataset.csv", "a", newline='', encoding="utf-8") as f:
                     writer = csv.writer(f, delimiter=";")
                     writer.writerow(currentDataSet)
 
             # Deconnexion du bot
             if (str(message.author) == adminClose) and (str(message.content) == "?close"):
-                await message.channel.send("Je dois y aller !")
+                # await message.channel.send("Je dois y aller !")
                 await client.close()
 
             # Formulaire de commandes
@@ -141,7 +141,7 @@ def discordBot():
                 toaddr_ = str(message.content).split()[1]
                 createPdfFile()
                 send_resume_email(toaddr_)
-                await message.channel.send('Email envoyé! :)')
+                # await message.channel.send('Email envoyé! :)')
                 os.remove(returnFileName())
 
     client.run(TOKEN)

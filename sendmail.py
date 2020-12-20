@@ -15,7 +15,7 @@ def send_resume_email(toaddr_):
     """
 
     # Déclaration des informations essentielles à l'envoi du mail
-    fromaddr = "datadiscordbot@gmail.com"
+    fromaddr = ""
     toaddr = str(toaddr_)
     msg= MIMEMultipart()
     msg['From'] = fromaddr
@@ -40,7 +40,7 @@ def send_resume_email(toaddr_):
     # Connexion au serveur pour l'envoi du mail
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login(fromaddr, "CaVaFaireDesMillions!!")
+    s.login(fromaddr, "password")
     text = msg.as_string()
     s.sendmail(fromaddr, toaddr, text)
     s.quit()
